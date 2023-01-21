@@ -7,7 +7,7 @@ while (num >= 0) {
 }
 
 // while -> 조건이 맞을 때에만 실행하고 싶을 때
-let isActive = false;
+let isActive = true;
 let i = 0;
 while(isActive) {
     console.log('아직 살아있다!');
