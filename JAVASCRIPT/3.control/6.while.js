@@ -7,17 +7,17 @@ while (num >= 0) {
 }
 
 // while -> 조건이 맞을 때에만 실행하고 싶을 때
-let isActive = true;
+let isActive = false;
 let i = 0;
 while(isActive) {
     console.log('아직 살아있다!');
-    if (i === 1000) {
+    if (i === 5) {
         break;
     }
     i++;
 }
 
-// 꼭 한 번은 실행해야 한다면 do-while
+꼭 한 번은 실행해야 한다면 do-while
 do {
     console.log('do-while 아직 살아있다!');
 } while (isActive);
