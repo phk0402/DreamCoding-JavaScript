@@ -57,7 +57,6 @@ console.log(arr3);
 // 순서를 거꾸로
 const arr4 = arr3.reverse();
 console.log(arr4);
-console.clear();
 
 // 중첩 배열을 하나의 배열로 쫙 펴기
 let arr = [
