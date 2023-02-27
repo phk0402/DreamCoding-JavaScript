@@ -33,3 +33,25 @@ console.log(result);
 // 조건에 맞는 모든 아이템들을 새로운 배열로!
 result = products.filter((item) => item.name === '🍪');
 console.log(result);
+
+console.clear();
+
+// Map 배열의 아이템들을 각각 다른 아이템으로 매핑할 수 있는, 변환해서 새로운 배열 생성!
+const nums = [1,2,3,4,5];
+result = nums.map((item) => item * 2);
+console.log(result);
+
+result = nums.map((item) => {
+    if (item % 2 === 0) {
+        return item * 2;
+    } else {
+        return item;
+    }
+});
+console.log(result);
+
+// Flatmap: 중첩된 배열을 쫙 펴줌
+result = nums.flatMap(item => [1, 2]);
+console.log(result);
+
+// result = ['dream', 'coding'].map(text)
