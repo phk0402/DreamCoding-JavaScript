@@ -4,16 +4,16 @@ const fruits = ['🍌', '🍓', '🍇', '🍓'];
 // }
 
 // 배열을 빙글빙글 돌면서 원하는 것을 할 때
-fruits.forEach(function(value) {
+fruits.forEach(function (value) {
     console.log(value);
 });
 fruits.forEach((value) => console.log(value));
 
 // 조건에 맞는(콜백함수) 아이템을 찾을 때
 // find: 제일 먼저 조건에 맞는 아이템을 반환
-const item1 = { name: '🥛', price: 2};
-const item2 = { name: '🍪', price: 3};
-const item3 = { name: '🍙', price: 1};
+const item1 = {name: '🥛', price: 2};
+const item2 = {name: '🍪', price: 3};
+const item3 = {name: '🍙', price: 1};
 const products = [item1, item2, item3, item2];
 let result = products.find((value) => value.name === '🍪');
 console.log(result);
@@ -35,7 +35,7 @@ result = products.filter((item) => item.name === '🍪');
 console.log(result);
 
 // Map 배열의 아이템들을 각각 다른 아이템으로 매핑할 수 있는, 변환해서 새로운 배열 생성!
-const nums = [1,2,3,4,5];
+const nums = [1, 2, 3, 4, 5];
 result = nums.map((item) => item * 2);
 console.log(result);
 
