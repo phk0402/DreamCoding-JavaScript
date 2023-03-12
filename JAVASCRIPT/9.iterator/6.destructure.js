@@ -43,7 +43,6 @@ const prop = {
     },
 };
 
-
 function changeColor({styles: { color }}) {
     console.log(color);
 }
